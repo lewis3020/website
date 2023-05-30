@@ -1,5 +1,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
 }
 #container {
     -webkit-touch-callout: none;
@@ -18,7 +20,6 @@ table {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 2px;
-    border-left: 6px solid #ffb600;
 }
 table:not(:first-child){
     margin-top: 35px;
@@ -39,7 +40,7 @@ input[type="checkbox"]{
     cursor: pointer;
 }
 input[type="checkbox"]:checked{
-    background-color: MediumSeaGreen;
+    
     transition-duration: 0.5s;
 }
 td:not(.header){
@@ -49,10 +50,8 @@ td:not(.header){
 }
 .header{
     font-size: 1.5em;
-    color: darkcyan;
 }
 #generateStringBtn{
-    color: #008CBA;
     padding: 10px 8px;
     text-align: center;
     text-decoration: none;
@@ -61,16 +60,13 @@ td:not(.header){
     margin: 6px 4px;
     transition-duration: 0.6s;
     cursor: pointer;
-    background-color: white; 
-    border: 2px solid #008CBA; 
     font-size:20pt; 
     position: relative; 
     left:20px;
     border-radius: 10px;
 }
 #generateStringBtn:hover{
-    background-color: #008CBA; 
-    color: white;
+
 }
 #output{
     margin-left:2%; 
@@ -78,7 +74,7 @@ td:not(.header){
     word-wrap:break-word;
 }
 #reset{
-    color: MediumSeaGreen;
+
     padding: 10px 16px;
     text-align: center;
     text-decoration: none;
@@ -87,16 +83,13 @@ td:not(.header){
     margin: 4px 2px;
     transition-duration: 0.6s;
     cursor: pointer; 
-    background-color: white; 
-    border: 2px solid MediumSeaGreen; 
     font-size:20pt; 
     margin-left:25px;
     border-radius: 10px;
 }
 #reset:hover{
-    background-color: MediumSeaGreen; 
-    color: white;
-}	
+
+}
 img {
     width: 100%;
     height: auto;
@@ -114,5 +107,5 @@ img {
     padding-right: 10px;
 }
 #PClabel {
-    color: deeppink;
+
 }
