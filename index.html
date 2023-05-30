@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <link href="styling.css" rel="stylesheet" type="text/css">
+<title>Log-a-lot!</title>
+</head>
+<body>
+<div id="container">
+<table id="topTable">
+	<tr><td><label for="t1"><input type="checkbox" id="t1" name="chek" value="Discoloration from previous stickers">Sticker burn</label></td></table><tr>
+</table>
+<table id="topTable">
+	<tr>
+		<td rowspan="7" class="header">Top</td>
+		<td><label for="t2"><input type="checkbox" id="t2" name="chek" value="Scratches on top">Scratches</label></td>
+	</tr>
+	<tr>
+		<td><label for="t3"><input type="checkbox" id="t3" name="chek" value="Discoloration on top">Discoloration</label></td>
+	</tr>
+	<tr>
+		<td><label for="t4"><input type="checkbox" id="t4" name="chek" value="Dings on top">Dings</label></td>
+	</tr>
+	<tr>
+		<td><label for="t5"><input type="checkbox" id="t5" name="chek" value="Dents on top">Dents</label></td>
+	</tr>
+	<tr id="PClabel">
+		<td><label for="t6"><input type="checkbox" id="t6" name="chek" value="Peeling case laminate">Peeling case laminate</label></td>
+	</tr>
+	<tr id="PClabel">
+		<td><label for="t7"><input type="checkbox" id="t7" name="chek" value="Cracked case">Cracked case</label></td>
+	</tr>
+</table>
+<table id="baseTable">
+	<tr>
+		<td rowspan="5" class="header">Base</td>
+		<td><label for="b1"><input type="checkbox" id="b1" name="chek" value="Missing feet">Missing feet</label></td>
+	</tr>
+	<tr>
+		<td><label for="b2"><input type="checkbox" id="b2" name="chek" value="Scratches on base">Scratches</label></td>
+	</tr>
+	<tr>
+		<td><label for="b3"><input type="checkbox" id="b3" name="chek" value="Discoloration on base">Discoloration</label></td>
+	</tr>
+	<tr>
+		<td><label for="b4"><input type="checkbox" id="b4" name="chek" value="Dings on base">Dings</label></td>
+	</tr>
+	<tr>
+		<td><label for="b5"><input type="checkbox" id="b5" name="chek" value="Dents on base">Dents</label></td>
+	</tr>
+</table>
+
+<table id="cornerAndEdgesTable">
+	<tr>
+		<td class="header">Front<br>Left</td>
+		<td></td>
+		<td id="cornerRightAlign" class="header">Front<br>Right</td>
+	</tr>
+	<tr>
+		<td><label for="c1"><input type="checkbox" id="c1" name="chek" value="Dings on front left">Dings</label></td>
+		<td style="padding-left:25px" class="header" id="cornerCenterAlign">Edges</td>
+		<td id="cornerRightAlign"><label for="c2"><input type="checkbox" id="c2" name="chek" value="Dings on front right">Dings</label></td>
+	</tr>
+	<tr>
+		<td><label for="c3"><input type="checkbox" id="c3" name="chek" value="Dents on front left">Dents</label></td>
+		<td style="padding-left:25px" id="cornerCenterAlign"><label for="e1"><input type="checkbox" id="e1" name="chek" value="Scuffs on edges">Scuffs</label></td>
+		<td id="cornerRightAlign"><label for="c4"><input type="checkbox" id="c4" name="chek" value="Dents on front right">Dents</label></td>
+	</tr>
+	<tr>
+		<td colspan="3" style="text-align: center; color: teal; padding-top:8px; padding-bottom:5px;">	
+		<label for="x4"><input type="checkbox" id="x4" name="chek" value="Dings on all four corners">Dings on all four corners</label>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" style="text-align: center; color: teal; padding-top:5px; padding-bottom:8px;">	
+		<label for="x5"><input type="checkbox" id="x5" name="chek" value="Dents on all four corners">Dents on all four corners</label>
+		</td>
+	</tr>	
+	<tr>
+		<td><label for="c5"><input type="checkbox" id="c5" name="chek" value="Dings on back left">Dings</label></td>
+		<td style="padding-left:25px" id="cornerCenterAlign"><label for="c6"><input type="checkbox" id="c6" name="chek" value="Scuffs on clutch">Scuffs</label></td>
+		<td id="cornerRightAlign"><label for="c7"><input type="checkbox" id="c7" name="chek" value="Dings on back right">Dings</label></td>
+	</tr>
+	<tr>
+		<td><label for="c8"><input type="checkbox" id="c8" name="chek" value="Dents on back left">Dents</label></td>
+		<td style="padding-left:25px" id="cornerCenterAlign" class="header">Clutch</td>
+		<td id="cornerRightAlign"><label for="c9"><input type="checkbox" id="c9" name="chek" value="Dents on back right">Dents</label></td>
+	</tr>
+	<tr>
+		<td class="header">Back<br>Left</td>
+		<td></td>
+		<td id="cornerRightAlign" class="header">Back<br>Right</td>
+	</tr>
+</table>
+<table id="innerCasing">
+	<tr>
+		<td rowspan="4" class="header">Inner<br>Casing</td>
+		<td><label for="i1"><input type="checkbox" id="i1" name="chek" value="Discoloration on inner casing">Discoloration</label></td>
+	</tr>
+	<tr>
+		<td><label for="i2"><input type="checkbox" id="i2" name="chek" value="Scratches on inner casing">Scratches</label></td>
+	</tr>
+	<tr>
+		<td><label for="i3"><input type="checkbox" id="i3" name="chek" value="Dings on inner casing">Dings</label></td>
+	</tr>
+	<tr>
+		<td><label for="i4"><input type="checkbox" id="i4" name="chek" value="Dents on inner casing">Dents</label></td>
+	</tr>
+</table>
+<table id="keyboard">
+	<tr>
+		<td rowspan="5" class="header">Keyboard</td>
+		<td><label for="k1"><input type="checkbox" id="k1" name="chek" value="Worn keys">Worn keys</label></td>
+	</tr>
+	<tr>
+		<td><label for="k2"><input type="checkbox" id="k2" name="chek" value="Missing keys">Missing keys</label></td>
+	</tr>
+	<tr>
+		<td><label for="k3"><input type="checkbox" id="k3" name="chek" value="Non-U.S. keyboard">Foreign keyboard</label></td>
+	</tr>
+	<tr>
+		<td><label for="k4"><input type="checkbox" id="k4" name="chek" value="Keys malfunctioning">Keys malfunctioning</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="k5"><input type="checkbox" id="k5" name="chek" value="Touchbar not working">Touchbar issues</label></td>
+	</tr>
+</table>
+<table id="lcd">
+	<tr>
+	<td rowspan="13" class="header">Screen</td>
+		<td><label for="l1"><input type="checkbox" id="l1" name="chek" value="Partial laminate damage on the screen">Partial laminate damage</label></td>
+	</tr>
+	<tr>
+		<td><label for="l2"><input type="checkbox" id="l2" name="chek" value="Moderate laminate damage on the screen">Moderate laminate damage</label></td>
+	</tr>	
+	<tr>
+		<td><label for="l3"><input type="checkbox" id="l3" name="chek" value="Severe laminate damage on the screen">Severe laminate damage</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l4"><input type="checkbox" id="l4" name="chek" value="Scratches on screen">Scratches</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l5"><input type="checkbox" id="l5" name="chek" value="Spot damage on screen">Spot damage</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l6"><input type="checkbox" id="l6" name="chek" value="Yellowing of screen">Yellowing</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l7"><input type="checkbox" id="l7" name="chek" value="Tinted screen">Tint</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l8"><input type="checkbox" id="l8" name="chek" value="Cracked screen">Cracked screen</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l9"><input type="checkbox" id="l9" name="chek" value="Screen as is-">Screen as is- <span style="color: red">(add details!)</span></label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l10"><input type="checkbox" id="l10" name="chek" value="Cracked bezel">Cracked bezel</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l11"><input type="checkbox" id="l11" name="chek" value="Cracked clutch">Cracked clutch</label></td>
+	</tr>	
+	<tr>
+		<td colspan="2"><label for="l12"><input type="checkbox" id="l12" name="chek" value="Torn rubber gasket around screen">Torn rubber gasket</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="l13"><input type="checkbox" id="l13" name="chek" value="Loose hinge">Loose hinge</label></td>
+	</tr>
+</table>
+<table id="misc">
+	<tr>
+		<td rowspan="6" class="header">Misc.</td>
+		<td colspan="2"><label for="m1"><input type="checkbox" id="m1" name="chek" value="Bad battery">Bad battery</label>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="m2"><input type="checkbox" id="m2" name="chek" value="No battery">No battery</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="m3"><input type="checkbox" id="m3" name="chek" value="Webcam not working">Webcam not working</label></td>
+	</tr>
+	<tr>
+		<td colspan="2"><label for="m4"><input type="checkbox" id="m4" name="chek" value="Microphone not working">Microphone not working</label></td>
+	</tr>
+	<tr id="PClabel">
+		<td colspan="2"><label for="m5"><input type="checkbox" id="m5" name="chek" value="Speakers not working">Speakers not working</label></td>
+	</tr>
+	<tr id="PClabel">
+		<td colspan="2"><label for="m6"><input type="checkbox" id="m6" name="chek" value="USB ports not working">USB ports not working</label></td>
+	</tr>
+	</tr>
+</table>
+</div>
+<br>
+<br>
+<div id="output"></div>
+<br>
+
+<br>
+<button id="generateStringBtn" onclick="activate();">Generate & Copy</button>
+<button id="reset" onclick="reset();">Reset</button>
+<br><br><br>
+
+</body>
+</html>

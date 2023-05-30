@@ -1,0 +1,115 @@
+#container {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;	
+    display: inline-block;
+    vertical-align: top;
+    height:auto;
+    margin-left: 1.9%;
+}
+table {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    border-left: 6px solid #ffb600;
+}
+table:not(:first-child){
+    margin-top: 35px;
+}
+label {
+    padding-left: 5px;
+    font-size:1.15em;
+}
+label:hover{
+    cursor: pointer;
+}
+input:hover{
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    width: 20px; 
+    height: 20px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked{
+    background-color: MediumSeaGreen;
+    transition-duration: 0.5s;
+}
+td:not(.header){
+    vertical-align: baseline;
+    padding-right:5px;
+    font-size: 16pt;
+}
+.header{
+    font-size: 1.5em;
+    color: darkcyan;
+}
+#generateStringBtn{
+    color: #008CBA;
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    background-color: white; 
+    border: 2px solid #008CBA; 
+    font-size:20pt; 
+    position: relative; 
+    left:20px;
+    border-radius: 10px;
+}
+#generateStringBtn:hover{
+    background-color: #008CBA; 
+    color: white;
+}
+#output{
+    margin-left:2%; 
+    font-size:20pt; 
+    word-wrap:break-word;
+}
+#reset{
+    color: MediumSeaGreen;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.6s;
+    cursor: pointer; 
+    background-color: white; 
+    border: 2px solid MediumSeaGreen; 
+    font-size:20pt; 
+    margin-left:25px;
+    border-radius: 10px;
+}
+#reset:hover{
+    background-color: MediumSeaGreen; 
+    color: white;
+}	
+img {
+    width: 100%;
+    height: auto;
+}
+#cornerRightAlign{
+    text-align: right;
+    /*for front right and back right*/
+    padding-left: 25px;
+}
+#cornerCenterAlign{
+    text-align: center;
+    /*for edges, clutch*/
+}
+.header:not(#cornerRightAlign){
+    padding-right: 10px;
+}
+#PClabel {
+    color: deeppink;
+}
