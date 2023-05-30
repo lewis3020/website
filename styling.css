@@ -65,9 +65,7 @@ td:not(.header){
     left:20px;
     border-radius: 10px;
 }
-#generateStringBtn:hover{
 
-}
 #output{
     margin-left:2%; 
     font-size:20pt; 
@@ -87,9 +85,7 @@ td:not(.header){
     margin-left:25px;
     border-radius: 10px;
 }
-#reset:hover{
 
-}
 img {
     width: 100%;
     height: auto;
@@ -106,6 +102,4 @@ img {
 .header:not(#cornerRightAlign){
     padding-right: 10px;
 }
-#PClabel {
 
-}
