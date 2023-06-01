@@ -1,4 +1,5 @@
 body{
+    
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
@@ -68,6 +69,7 @@ td:not(.header){
 }
 .header{
     font-size: 1.5em;
+    display: inline-block;
 }
 #generateStringBtn{
     padding: 10px 8px;
