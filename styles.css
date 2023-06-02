@@ -1,7 +1,31 @@
 body{
+    font-size: 20px;
     text-align: center;
     margin-left: 10px;
+    background: linear-gradient(315deg, rgb(242, 180, 8) 3%, rgba(60,132,206,1) 38%, rgb(243, 191, 2) 68%, rgb(7, 170, 240) 98%);
+    animation: gradient 80s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
 }
 .same{
     display: inline-block;
 }
+hr{
+        height: 6px;
+        background-color: #000000;
+        border: none;
+}
+p{
+    padding-left: 30px
+  }
