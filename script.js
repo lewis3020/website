@@ -1,6 +1,6 @@
 function activate(){
     //generates string of checked boxes
-    var checkedStuff = document.getElementsByName("chek");
+    var checkedStuff = document.getElementsByName("Add");
     var out = document.getElementById("output");
     out.innerHTML="";
     var s = "";
