@@ -63,6 +63,7 @@ input[type="checkbox"]:checked{
     transition-duration: 0.5s;
 }
 td:not(.header){
+    text-align: center;
     vertical-align: baseline;
     padding-right:5px;
     font-size: 16pt;
