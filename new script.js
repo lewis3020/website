@@ -1,17 +1,4 @@
-function activate(){
-  //generates string of checked boxes
-  var checkedStuff = document.getElementsByName("chek");
-  var out = document.getElementById("output");
-  out.innerHTML="";
-  var s = "";
-  for(var checkbox of checkedStuff)
-      if(checkbox.checked)
-          s+=(checkbox.value+", ");
-  s=s.trim();
-  s=s.substring(0,s.length-1);
-  out.innerHTML=s;
-  copyToClipboard(s);
-}
+
 function copyToClipboard(str){
   //exactly what it says on the tin
   var tempElement = document.createElement("textarea");

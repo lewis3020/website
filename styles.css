@@ -2,8 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
-    margin-left: 10px;
-    background: linear-gradient(315deg, rgb(242, 180, 8) 3%, rgba(60,132,206,1) 38%, rgb(243, 191, 2) 68%, rgb(7, 170, 240) 98%);
+    background: linear-gradient(315deg, rgb(242, 180, 8) 3%, rgba(60,132,206,1) 38%, rgb(243, 191, 2) 68%, rgb(60, 132, 206,1) 98%);
     animation: gradient 80s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -19,14 +18,11 @@ body{
         background-position: 0% 0%;
     }
 }
-.same{
-    display: inline-block;
-}
 hr{
         height: 6px;
         background-color: #000000;
         border: none;
 }
-p{
-    padding-left: 30px
-  }
+.top-of-case{
+    display: flex;
+}
