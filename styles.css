@@ -1,7 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    text-align: center;
     background: linear-gradient(315deg, rgb(242, 180, 8) 3%, rgba(60,132,206,1) 38%, rgb(243, 191, 2) 68%, rgb(60, 132, 206,1) 98%);
     animation: gradient 80s ease infinite;
     background-size: 400% 400%;
@@ -33,4 +32,8 @@ hr{
     clear: both;
     float: center;
     margin-right:15px;
+}
+p input{
+    margin: 0;
+    padding: 0;
 }
