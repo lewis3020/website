@@ -33,7 +33,6 @@ hr{
     float: center;
     margin-right:15px;
 }
-p input{
-    margin: 0;
-    padding: 0;
+p{
+    display: inline;
 }
