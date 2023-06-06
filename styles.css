@@ -26,3 +26,11 @@ hr{
 .top-of-case{
     display: flex;
 }
+
+    label {
+    /* Other styling... */
+    text-align: right;
+    clear: both;
+    float: center;
+    margin-right:15px;
+}
