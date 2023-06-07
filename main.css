@@ -4,19 +4,18 @@ html {
     padding: 0;
 }
 
-html,body {
+body {
+    zoom: 90%;
     color: #fff;
-    width: 90%;
-    height: 100px;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
     display: flex;
-    align-items: right;
-    justify-content: right;
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
     background: #000000;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #000000, #000000);
@@ -27,7 +26,7 @@ html,body {
 }
 
 .container {
-    text-align: flex;
+    text-align: center;
     max-width: 900px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;
@@ -140,8 +139,8 @@ button {
     transform: translateY(0);
    }
 hr{
-    border-top: 4px solid #000000;
-    background-color: #000000;
+    border-top: 1px solid #ffffff;
+    background-color: #ffffff;
     
 }
 h2{
@@ -150,4 +149,33 @@ h2{
 }
 .output{
     text-align: center;
+}
+P{
+     text-align: center;
+    font-family: 'Inconsolata', monospace; 
+}
+.vertical {
+    border-right: 2.33px solid #ffffff;
+    height: 1236px;
+    position:absolute;
+    left: 68.90%;
+}
+.left{
+    display: inline-block;
+    width: 100%;
+    border-left: 1px solid #ffffff;
+    height: 1240px;
+}
+.right{
+    display: inline-block;
+    width: 100%;
+    border-right: 1px solid #ffffff;
+    height: 1240px;
+}
+.lid{
+    display: inline-block;
+    width: 100.5%;
+    padding: 0%;
+    border-top: 1px solid #ffffff;
+    height: -10px;
 }
