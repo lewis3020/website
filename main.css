@@ -12,7 +12,6 @@ html,body {
     padding: 0;
     overflow-x: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
     font-size:larger;
     display: flex;
     align-items: center;
@@ -145,6 +144,9 @@ hr{
     
 }
 h2{
-    text-align: left;
+    text-align: center;
     font-family: 'Inconsolata', monospace;
+}
+.output{
+    text-align: center;
 }
