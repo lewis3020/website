@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    zoom: 90%;
+    zoom: 0%;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 110vh;
+    height: 147vh;
     background: #000000;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #000000, #000000);
@@ -61,32 +61,15 @@ ul.ks-cboxtags li label {
     cursor: pointer;
 }
 
-ul.ks-cboxtags li label::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 12px;
-    padding: 2px 6px 2px 2px;
-    content: "\f067";
-    transition: transform .3s ease-in-out;
-}
 
-ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
-    content: "\f00c";
-    transform: rotate(-360deg);
-    transition: transform .3s ease-in-out;
-}
 
 ul.ks-cboxtags li input[type="checkbox"]:checked + label {
     border: 2px solid #1bdbf8;
     background-color: #12bbd4;
-    color: #fff;
+    color: #ffffff;
     transition: all .2s;
 }
+
 
 ul.ks-cboxtags li input[type="checkbox"] {
   display: absolute;
@@ -101,7 +84,7 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
 button {
     appearance: none;
     background-color: transparent;
-    border: 0.125em solid #1A1A1A;
+    border: 0.125em solid #000000;
     border-radius: 0.9375em;
     box-sizing: border-box;
     color: #ffffff;
@@ -111,7 +94,7 @@ button {
     font-weight: 600;
     line-height: normal;
     margin: 0;
-    min-height: 3.75em;
+    height: 4.5em;
     min-width: 0;
     outline: none;
     padding: 1em 2.3em;
@@ -129,8 +112,8 @@ button {
    
    button:hover {
     color: #fff;
-    background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    background-color: #404451;
+    box-shadow: rgba(193, 35, 35, 0.25) 0 8px 15px;
     transform: translateY(-2px);
    }
    
@@ -170,7 +153,7 @@ P{
     display: inline-block;
     width: 100%;
     border-right: 1px solid #ffffff;
-    height: 1240px;
+    height: 1220px;
 }
 .lid{
     display: inline-block;
