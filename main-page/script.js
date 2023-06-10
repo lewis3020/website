@@ -1,6 +1,6 @@
 function showOutput() {
     var output = document.getElementById("output");
-    output.innerHTML = "Problems: ";
+    output.innerHTML = " ";
 
     var checkboxes = document.querySelectorAll("input[type=checkbox]:checked");
     for (var i = 0; i < checkboxes.length; i++) {

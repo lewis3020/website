@@ -132,7 +132,7 @@ h2{
 }
 .output{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 P{
      text-align: center;
@@ -148,13 +148,13 @@ P{
     display: inline-block;
     width: 100%;
     border-left: 1px solid #ffffff;
-    height: 1240px;
+    height: flex;
 }
 .right{
     display: inline-block;
     width: 100%;
     border-right: 1px solid #ffffff;
-    height: 1220px;
+    height: flex;
 }
 .lid{
     display: inline-block;
