@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 147vh;
+    height: flex;
     background: #000000;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #000000, #000000);
@@ -132,6 +132,7 @@ h2{
 }
 .output{
     text-align: center;
+    font-size: 20px;
 }
 P{
      text-align: center;
