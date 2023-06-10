@@ -175,20 +175,6 @@ nav
 	z-index: 1;
 	cursor: pointer;
 }
-
-nav:after
-{
-	position: absolute;
-	content: ' ';
-	width: 0;
-	height: 0;
-	right: -70px;
-	top: 50%;
-	border-width: 15px 10px;
-	border-style: solid;
-	border-color: transparent transparent transparent #000000;
-}
-
 nav ul
 {
 	width: 14em;
